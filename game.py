@@ -2,7 +2,7 @@ from random import choice, randrange
 from datetime import datetime
 
 
-operators = ["/"]
+operators = ["+","-","*","/"]
 times = 5
 init_time = datetime.now()
 print(f"¡Veremos cuanto tardas en responder estas {times} operaciones!")
